@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Anyelina</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">MIS PROYECTOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">ESTUDIANDO </a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CERTIFICADOS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Anyelina Paredes</h1>
+            <h2>Junior Full-Stack Software Developer
+            </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/anyelina.paredesguzman"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/anyelina_paredesguzman/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/anyelina-paredes-guzman-58792abb/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/AnyelinaParedes"><i class="fa-brands fa-github"></i></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Anyelina Paredes.</span>Me considero una persona, autodidacta, responsable , dinámica y creativa con facilidad de adaptación y capacidad de trabajar en equipo ,con muchas ganas de aprender , comunicativa, con iniciativa para resolver problemas eficientemente, lograr las metas y objetivos trazado por la empresa.
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-01-1994
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +56 9 3201 6252
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            anyelinaparedesguzman1994@gmail.com
+                        </li>
+                        
+                        <li>
+                            <strong>Dirección</strong>
+                            Primera, santigo
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Junior Full-Stack Software Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                            <span>PLAYA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-clapperboard"></i>
+                            <span>PELICULAS</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar 
+                <a href="./domento/anyelina.pdf"><i class="fa-solid fa-download" download></i></a>
+
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap 5</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GitHub</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <div class="skill">
+                        <span>API Rest</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GIT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Base de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Visual Studio Code</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Flask</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MySQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>45%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ESTUDIANDO ACTUALMENTE> -->
+    <div class="titulo">
+        <h2>Estudiando Actualmente</h2></div>
+    <div class="container ">
+        <div class="row grid" >
+
+            <div class="col-md-4 iconos">
+                <div class="col-md-4 iconos ">
+                   
+            <i class="devicon-php-plain colored">PHP</i>
+                </div>
+            </div>
+
+            <div class="col-md-4 iconos">
+                <div class="col-md-4 iconos ">
+                    
+            <i class="devicon-sass-original colored">SASS</i>
+          
+                </div>
+            </div>
+
+
+            <div class="col-md-4 iconos">
+                <div class="col-md-4 iconos ">
+                   
+            <i class="devicon-nodejs-plain colored"> NODE.JS</i>
+          
+                </div>
+            </div>
+
+
+            <div class="col-md-4 iconos">
+                <div class="col-md-4 iconos">
+                 
+            <i class="devicon-django-plain-wordmark colored">DJANGO</i>
+          
+                </div>
+            </div>
+
+            <div class="col-md-4 iconos">
+                <div class="col-md-4 iconos">
+                 
+            <i class="devicon-adonisjs-original colored">ANGULAR</i>
+          
+                </div>
+            </div>
+        
+          
+        </div>
+    </div>
+
+
+    <!-- Mis PROYECTOS -->
+    <div class="titulo">
+    <h2>Mis Proyectos</h2>
+    
+</div>
+    <div class="container ">
+        <div class="row grid" >
+            <div class="col-md-4 gallery ">
+                <a target="_blank" href="https://github.com/AnyelinaParedes/Proyecto-Final">
+                    <img src="imagen/proyecto1.png" width="350" height="350" />
+                </a>
+            </div>
+
+
+            <div class="col-md-4 gallery">
+                <a target="_blank" href="https://github.com/AnyelinaParedes/Sorting-Cards-with-Bubble-algorithm">
+                    <img src="imagen/proyecto2.png" width="350" height="350"  />
+                </a>
+            </div>
+
+            <div class="col-md-4 gallery">
+                <a target="_blank" href="https://github.com/AnyelinaParedes/reproductor-mario">
+                    <img src="imagen/proyecto3.png" width="350" height="350"  />
+                </a>
+            </div>
+
+            <div class="col-md-4 gallery">
+                <a target="_blank" href="https://github.com/AnyelinaParedes/contador">
+                    <img src="imagen/proyecto4.png" width="350" height="350"  />
+                </a>
+              
+            </div>
+
+            <div class="col-md-4 gallery">
+                <a target="_blank" href="https://github.com/AnyelinaParedes/starwar">
+                    <img src="imagen/proyecto5.png" width="350" height="350"  />
+                </a>
+                
+            </div>
+            
+            <div class="col-md-4 gallery">
+                <a target="_blank" href="https://github.com/AnyelinaParedes/semaforo-">
+                    <img src="imagen/proyecto6.png" width="350" height="350"  />
+                </a>
+               
+
+            
+            
+        </div>
+    </div>
+
+    <!-- MIS CERTIFICADOS-->
+    <div class="titulo">
+        <h2>Mis Certificados</h2></div>
+    <div class="swiffy-slider">
+        <ul class="slider-container ">
+           <img src="imagen/certificado1.png" >
+            <img src="imagen/certificado2.png"  >
+            <img src="imagen/certificado3.png">
+           <img src="imagen/certificado4.png">
+        </ul>
+    
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+    
+        <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/anyelina.paredesguzman"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/anyelina_paredesguzman/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/anyelina-paredes-guzman-58792abb/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/AnyelinaParedes"><i class="fa-brands fa-github"></i></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Ter
