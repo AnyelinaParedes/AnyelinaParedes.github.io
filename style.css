@@ -289,6 +289,15 @@ html{
     0%{width: 0%;}
     100%{width: 89%;}
 }
+.skills .skill .redux{
+    width: 0%;
+    animation: 2s redux forwards;
+    color: #050505;
+}
+@keyframes redux {
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
 
 .skills .skill .bootstrap5{
     width: 0%;
@@ -384,6 +393,15 @@ html{
 @keyframes flask {
     0%{width: 0%;}
     100%{width: 94%;}
+}
+.skills .skill .php{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+    color: #050505;
+}
+@keyframes php {
+    0%{width: 0%;}
+    100%{width: 89%;}
 }
 /* SECCION CURRICULUM */
 

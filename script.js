@@ -23,19 +23,20 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("bootstrap5");
-        habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("react");
-        habilidades[5].classList.add("Apirest");
-        habilidades[6].classList.add("github");
-        habilidades[7].classList.add("git");
-        habilidades[8].classList.add("python");
-        habilidades[9].classList.add("basededatos");
-        habilidades[10].classList.add("visulestudiocode");
-        habilidades[11].classList.add("flask");
-        habilidades[12].classList.add("mysql");
-        habilidades[13].classList.add("php");
-        habilidades[14].classList.add("Redux");
+        habilidades[2].classList.add("redux");
+        habilidades[3].classList.add("bootstrap5");
+        habilidades[4].classList.add("wordpress");
+        habilidades[5].classList.add("react");
+        habilidades[6].classList.add("Apirest");
+        habilidades[7].classList.add("github");
+        habilidades[8].classList.add("git");
+        habilidades[9].classList.add("python");
+        habilidades[10].classList.add("basededatos");
+        habilidades[11].classList.add("visulestudiocode");
+        habilidades[12].classList.add("flask");
+        habilidades[13].classList.add("mysql");
+        habilidades[14].classList.add("php");
+       
        
         
     }
