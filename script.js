@@ -34,7 +34,8 @@ function efectoHabilidades(){
         habilidades[10].classList.add("visulestudiocode");
         habilidades[11].classList.add("flask");
         habilidades[12].classList.add("mysql");
-        habilidades[12].classList.add("php");
+        habilidades[13].classList.add("php");
+        habilidades[14].classList.add("Redux");
        
         
     }
